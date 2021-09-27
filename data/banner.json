@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/id/1060/1000/400.jpg"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/id/155/1000/400.jpg"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/id/163/1000/400.jpg"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/id/195/1000/400.jpg"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/id/20/1000/400.jpg"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/id/299/1000/400.jpg"
+  }
+]

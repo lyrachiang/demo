@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+  </head>
+  <body>
+    <header>
+      <div class="custom_container">
+        <div class="nav"><a class="logo" href="index.html"> <i class="material-icons">store</i></a>
+          <ul class="menu_list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="member.html">Member</a></li>
+            <li><a href="album.html">Album</a>
+              <ul class="sub_list">
+                <li><a href="album.html#album1">Album1</a></li>
+                <li><a href="album.html#album2">Album2</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="menu_toggle"><span></span></div>
+        </div>
+      </div>
+    </header>
+    <section class="main_section">
+      <div class="wrapper custom_container">
+            <div class="banner_container">
+              <div class="banner_box">
+                <div class="banner"></div>
+              </div>
+            </div>
+        <div class="search_container">
+          <div class="search_title">
+            <h2><span><i class="material-icons">directions_car</i></span><span>臺北市停車場資訊</span></h2>
+            <div class="search_box"><i class="material-icons">add_location_alt</i>
+              <label for="searchParking">行政區</label>
+              <select id="searchParking" name="parking">
+                <option value="全部">全部</option>
+                <option value="中正區">中正區</option>
+                <option value="大同區">大同區</option>
+                <option value="中山區">中山區</option>
+                <option value="松山區">松山區</option>
+                <option value="大安區">大安區</option>
+                <option value="萬華區">萬華區</option>
+                <option value="信義區">信義區</option>
+                <option value="士林區">士林區</option>
+                <option value="北投區">北投區</option>
+                <option value="內湖區">內湖區</option>
+                <option value="南港區">南港區</option>
+                <option value="文山區">文山區</option>
+              </select>
+            </div>
+          </div>
+          <div class="search_result"></div>
+        </div>
+      </div>
+    </section>
+    <div class="modal_container">
+      <div class="modal_content">
+        <div class="modal_header">
+          <button id="modal_btn_close"><i class="material-icons">close</i></button>
+        </div>
+        <div class="modal_body">
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="custom_container">
+        <p class="copy_right">© 2021. All Rights Reserved</p>
+      </div>
+      <div class="go_top"><i class="material-icons">arrow_upward</i></div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
