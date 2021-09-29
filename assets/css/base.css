@@ -26,6 +26,12 @@ ul {
   margin: 0;
   padding: 0; }
 
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 header {
   background-color: #222; }
 
@@ -152,7 +158,11 @@ footer {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 999; }
+  z-index: 999;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: .3s; }
   .modal_container .modal_content {
     width: 600px;
     height: 400px;
@@ -278,7 +288,11 @@ footer {
   border-radius: 0px 0px 10px 10px;
   padding: 30px; }
   .tab_container .tab_body .tab_box {
-    display: none; }
+    display: none;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: .3s; }
     .tab_container .tab_body .tab_box > div {
       display: flex; }
       .tab_container .tab_body .tab_box > div img {
@@ -342,7 +356,11 @@ footer {
     .ranking_container .ranking_list li img {
       display: none;
       padding-top: 10px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in-out;
+      animation-duration: .3s; }
 
 @media (max-width: 991px) {
   .index_container {
