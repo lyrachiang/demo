@@ -278,7 +278,8 @@ footer {
     padding: 10px 0;
     background-color: #DCDCDC;
     border-radius: 5px 5px 0 0;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .3s; }
     .tab_container ul.tab_list li:hover, .tab_container ul.tab_list li.active {
       color: #000000;
       background-color: #FAFAD2; }
@@ -605,7 +606,8 @@ footer {
     .album_body .album_list img {
       border-radius: 10px;
       opacity: 0.7;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: all .3s; }
       .album_body .album_list img:hover {
         opacity: 1; }
     .album_body .album_list button:before {
@@ -620,12 +622,12 @@ footer {
     .album_block:nth-child(2) .album_content > div .gap {
       padding: 0 10px; }
   .album_block:nth-child(2) .album_content .album_box {
-    cursor: pointer;
-    transition: all .3s; }
+    cursor: pointer; }
     .album_block:nth-child(2) .album_content .album_box > img {
       margin: 10px 0;
       border-radius: 10px;
-      opacity: 0.7; }
+      opacity: 0.7;
+      transition: all .3s; }
       .album_block:nth-child(2) .album_content .album_box > img:hover {
         opacity: 1; }
 
